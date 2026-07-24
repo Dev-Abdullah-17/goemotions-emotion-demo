@@ -4,6 +4,9 @@ A multi-label emotion classifier built on **DeBERTa-v3** and **GoEmotions** (28 
 
 **Headline result:** Macro-F1 **0.4769 → 0.5302** (+5.3 points), driven almost entirely by reviving emotions the baseline had given up on — `relief` and `grief` went from **0.00** to **0.35–0.44**.
 
+🔗 **Live demo:** https://goemotions-emotion-demo-cksccxfpdawgisu4esdrzu.streamlit.app/
+🤗 **Model:** https://huggingface.co/dev-abdullah-0909/goemotions-deberta-v3-asl
+
 ## The problem
 
 GoEmotions labels 58k Reddit comments across 27 emotions plus `neutral`, and a comment can carry several at once (multi-label). Two properties make it hard, and most write-ups ignore both:
