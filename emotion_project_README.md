@@ -4,6 +4,7 @@ A multi-label emotion classifier built on **DeBERTa-v3** and **GoEmotions** (28 
 
 **Headline result:** Macro-F1 **0.4769 → 0.5302** (+5.3 points), driven almost entirely by reviving emotions the baseline had given up on — `relief` and `grief` went from **0.00** to **0.35–0.44**.
 
+  https://dev.to/muhammad_abdullah_958c011/emotion-blog-post-3hk8
 🔗 **Live demo:** https://goemotions-emotion-demo-cksccxfpdawgisu4esdrzu.streamlit.app/
 🤗 **Model:** https://huggingface.co/dev-abdullah-0909/goemotions-deberta-v3-asl
 
