@@ -1,3 +1,5 @@
+
+
 # Fixing the Long Tail in Fine-Grained Emotion Classification
 
 A multi-label emotion classifier built on **DeBERTa-v3** and **GoEmotions** (28 emotions). The project isn't "fine-tune a transformer and report a score" — it's a diagnosis. GoEmotions has a severe class-imbalance problem that quietly wrecks the rare emotions, and this repo tracks a series of controlled experiments that identify that problem, fix the largest part of it, and honestly report one idea that *didn't* help.
