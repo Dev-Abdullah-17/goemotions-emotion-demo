@@ -1,5 +1,3 @@
-
-
 # Fixing the Long Tail in Fine-Grained Emotion Classification
 
 A multi-label emotion classifier built on **DeBERTa-v3** and **GoEmotions** (28 emotions). The project isn't "fine-tune a transformer and report a score" — it's a diagnosis. GoEmotions has a severe class-imbalance problem that quietly wrecks the rare emotions, and this repo tracks a series of controlled experiments that identify that problem, fix the largest part of it, and honestly report one idea that *didn't* help.
@@ -91,6 +89,8 @@ python emotion_m2_asl.py     # the final model
 ```
 
 Notes that save hours: `transformers==4.44.2` loads DeBERTa-v3 cleanly for classification (newer builds mangled the head initialisation into NaNs); keep `fp16=False`; pin to a single GPU with `CUDA_VISIBLE_DEVICES=0` to avoid a multi-GPU / mixed-precision clash.
+
+
 
 ## What I'd try with more compute
 
